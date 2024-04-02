@@ -1,0 +1,68 @@
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, section, footer {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #000000;
+        }
+        header {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+        }
+        nav {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        nav ul {
+            
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        main {
+            background-color: #f4f4f4;
+        }
+        section {
+            background-color: #fff;
+        }
+        footer {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+        }
+        .imagemArara {
+            width: 300px;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+
+        }
+        .textoPrincipal {
+            text-align: center;
+        }
+        .imagemPinguim{
+            width: 300px;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+        }
+       .home, .text {
+        text-decoration: none;
+        color: inherit;
+        cursor: default;
+       }
+       .imagens{
+        text-decoration: none;
+        color: inherit;
+        cursor: default;
+       }
